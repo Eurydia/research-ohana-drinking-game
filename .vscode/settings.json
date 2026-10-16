@@ -1,0 +1,5 @@
+{
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapIndicator": true,
+  "editor.wordWrapColumn": 65
+}
