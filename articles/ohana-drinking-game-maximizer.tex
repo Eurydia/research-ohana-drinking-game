@@ -1,13 +1,9 @@
 \documentclass{article}
-\title{Ohana Maximizer}
-\author{eurydia}
+\usepackage{array}
+\usepackage{hyperref}
 \begin{document}
-\maketitle
 
-
-\section{Motivation}
-
-What is the maximum number of shots a player must drink if we stack the deck against that player.
+\tableofcontents
 
 \section{Rules}
 
@@ -37,13 +33,62 @@ The players take turns revealing a card from the deck. Each card has the followi
     \item [\textbf{Kings}] The player becomes a \textit{King}. Only one \textit{King} may be active at a given moment. The \textit{King} must play a role or a character. If the \textit{King} breaks character, they must take a shot.
     \item [\textbf{Aces}] The player must take a shot.
 
+
+
 \end{itemize}
 
-\section{}
+\subsection{Minigames}
 
-The \textit{No Pointing} rule as well as the effects of \textit{Queen} and \textit{King} can potentially make a player take infinitely many shots. To make the experiment more interesting, we will assume that everyone plays optimally. The effect of \textit{Jack} will always force one player to take a shot even when everyone plays optimally, so we will ignore it too.
+Across 69 episodes, there have been multiple minigames for the 9s.
 
-In other words, we will consider a hypothetical scenario in which the \textit{No Pointing} rule does not exist. Jacks, Queens and Kings cards are treated as if they have no effects.
+\subsubsection{\href{https://www.youtu.be.com/lFEmz4D7Tao}{Pilot episode (Aug 4, 2023)}}
+
+
+This episode features only minigame for the 9s. That is, whenever a 9 is drawn, the same minigame is played. The minigame is played at at \href{https://youtu.be/lFEmz4D7Tao?t=544}{9:04}, \href{https://youtu.be/lFEmz4D7Tao?t=1237}{20:37}, \href{https://youtu.be/lFEmz4D7Tao?t=1319}{21:59}, and \href{https://youtu.be/lFEmz4D7Tao?t=1472}{24:32}.
+
+\textbf{Word category}: The player who draws the 9 pick a category of their choice and say a word in that category. The next player say a different word in that category. Repeat this process until someone repeats the same word or fail to say a word in time. That player takes a shot. The minigame is over when someone loses. \label{minigame:word-category}
+
+
+
+
+\subsubsection{\href{https://www.youtu.be.com/sDtQGCJdgf8}{Ep. 1 (Oct 22, 2023)}}
+
+Same as pilot episode, \textbf{word category} (\ref{minigame:word-category}) is played whenever a 9 is drawn. The minigame is played at \href{https://youtu.be/sDtQGCJdgf8?t=497}{8:17}, \href{https://youtu.be/sDtQGCJdgf8?t=564}{9:24}, \href{https://youtu.be/sDtQGCJdgf8?t=715}{11:55}, and \href{https://youtu.be/sDtQGCJdgf8?t=1177}{19:37}.
+
+\subsubsection{\href{https://youtu.be/S_QeMzgNCyg}{Ep. 2 (Nov 5, 2023)}}
+
+In this episode, a different minigame is played whenever a 9 is drawn.
+
+\begin{itemize}
+    \item \textbf{Bottle flip} at \href{https://youtu.be/S_QeMzgNCyg?t=325}{5:25}: Each player is instructed to flip a bottle one by one. Each player receives one chance. After everybody has made their attempt, the gamemaster revealed that whoever successfully flipped the bottle must take a shot.
+    \item \textbf{Sing songs with a word} at \href {https://youtu.be/S_QeMzgNCyg?t=534}{8:55}: Each player must sing a song with the word `if' in its lyrics. A player can make up a song but if they get caught, they lose. The loser must take a shot.\label{minigame:sing-song-with-word}
+    \item  \textbf{Connecting syllables} at \href{https://youtu.be/S_QeMzgNCyg?t=1068}{17:48}: The player who draws the 9 says a 2-syllable word. The next player must say a different 2-syllable word that starts with the same sound as the final syllable of the previous word. For example, if the first word is `icon', the next word must start with `con.' If a player takes too long to response or repeats a word, they lose and must take a shot.\label{minigame:connecting-syllable}
+    \item \textbf{Sing songs with a word} at \href{https://youtu.be/S_QeMzgNCyg?t=1161}{19:21}: The same rule from \ref{minigame:sing-song-with-word} applies except the word is changed to `wake.'
+\end{itemize}
+
+\subsubsection{\href{https://youtu.be/S_QeMzgNCyg}{Ep. 3 (Dec 1, 2023)}}
+
+\begin{itemize}
+    \item \textbf{Word category (\ref{minigame:word-category})} at \href{https://youtu.be/qGlxgQeKXUg?t=365}{6:05}.
+    \item \textbf{Connecting syllables (\ref{minigame:connecting-syllable})} at \href{https://youtu.be/qGlxgQeKXUg?&t=530}{8:51}.
+    \item \textbf{Word category (\ref{minigame:word-category})} at \href{https://youtu.be/qGlxgQeKXUg?t=677}{11:19}.
+    \item \textbf{Sing songs with word (\ref{minigame:sing-song-with-word})} at \href{https://youtu.be/qGlxgQeKXUg?t=1327}{22:07}.
+\end{itemize}
+
+\subsubsection{\href{https://youtu.be/GDnfvIGU6Po}{Ep. 4 (Dec 10, 2023)}}
+
+\begin{itemize}
+    \item \textbf{Connecting syllables (\ref{minigame:connecting-syllable})} at \href{https://youtu.be/GDnfvIGU6Po?t=302}{5:02}.
+    \item \textbf{Sing songs with word (\ref{minigame:sing-song-with-word})} at \href{https://youtu.be/GDnfvIGU6Po?&t=587}{9:47}. (\textit{Note:} the label in the video is incorrect.)
+    \item \textbf{Memory game (\ref{minigame:word-category})} at \href{https://youtu.be/GDnfvIGU6Po?t=768}{12:43}: The gamemaster selects a category. Each player says all the previous answers before saying their own word.  For example, the forth player must say the word from the first, second, and third player before saying their word. If a player says the wrong word or takes too long to say, they loses.
+    \item \textbf{Word category (\ref{minigame:word-category})} at \href{https://youtu.be/GDnfvIGU6Po?&t=1303}{21:43}.
+\end{itemize}
+
+
+\subsubsection{\href{https://youtu.be/7mI6c84TuFc}{Ep. 5 (Dec 27, 2023)}}
+
+
+
 
 
 \end{document}
